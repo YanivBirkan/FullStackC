@@ -84,3 +84,7 @@ footer img {
     width: 100%;
     height: 100%;
 }
+footer img:hover{
+    width: 120%;
+    height: 120%;
+}
