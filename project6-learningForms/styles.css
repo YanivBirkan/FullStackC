@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(31, 30, 30);
+    margin: 8rem;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+form{
+    background-color: rgb(255,255,255);
+    width: 30rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    border-radius: 6px;
+}
+/* label{
+    padding-bottom: 0.5rem;
+} */
+input,textarea,select {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font:inherit;
+    border: 1px solid rgb(184,184,184);
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+input:focus,textarea:focus,select:focus{
+    background-color: rgb(219, 190, 253);
+    color: rgb(32, 5, 63);
+    border-color: inherit;
+
+}
+button {
+    display: block;
+    /* font: normal 1rem 'Roboto', sans-serif; */
+    font:inherit;
+    background-color: rgb(32, 5, 63);
+    color:white;
+    border: 1px solid rgb(32, 5, 63);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+} 
+button:hover{
+    background-color: rgb(52,14, 95);
+    border-color: rgb(52,14, 95);
+}
+.form-control-inline{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+.form-control-inline label{
+    padding-top: 25px;
+}
+.form-control-inline input{
+    width: auto;
+    text-align: center;
+    margin-right: 0.5rem;
+}
