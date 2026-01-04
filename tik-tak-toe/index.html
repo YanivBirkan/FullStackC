@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="/tik-tak-toe/app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Play Tic, Tac,Toe</h1>
+        <h3>Built with HTML, CSS, JavaScript ans - of course - lots of love!</h3>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <span>Player 1</span>
+                <h2 class="Player1Name" id="Player1Name">PLAYER NAME</h2>
+                <span>X</span>
+                <!-- <a href="#" onclick="return false;">Link</a> -->
+                <a href="#" onclick="return false;" id="Edit1">Edit</a>
+            </li>
+            <li>
+                <span>Player 2</span>
+                <h2>PLAYER NAME</h2>
+                <span>O</span>
+                <a href="#" onclick="return false;" >Edit</a>
+            </li>
+            <div id="overlay">
+                <div class="center" id="EditDiv" >
+                    <ul>
+                        <li id="EditDivElments">
+                            <span>Player 2</span>
+                            <h2 class="Player1Name">PLAYER NAME</h2>
+                            <input type="text" id="Player1NewName">
+                            <a href="#" onclick="return false;" id="Edit1Overlay" >Edit Name</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+              
+        </ul>
+        <button>Start New Game</button>
+    </main>
+</body>
+</html>
